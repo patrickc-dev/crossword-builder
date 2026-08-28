@@ -1,0 +1,8 @@
+.claude/
+__pycache__/
+*.pyc
+
+# Personal crossword data — word lists, generated puzzles, and brainstormed
+# clues containing private information. Keep these local, not in git.
+/private/
+src/clues.md

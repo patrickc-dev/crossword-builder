@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Demo Crossword</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: Georgia, serif; background: #fff; color: #111; padding: 20px; }
+  h1 { text-align: center; font-size: 22px; letter-spacing: 2px; margin-bottom: 24px; }
+  .puzzle-wrap { display: flex; gap: 32px; align-items: flex-start; justify-content: center; }
+  table { border-collapse: collapse; border: 2px solid #111; }
+  td { width: 34px; height: 34px; padding: 0; position: relative; }
+  td.black { background: #111; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  td.white { background: #fff; border: 1px solid #555; }
+  td.white .num { position: absolute; top: 2px; left: 2px; font-size: 9px; line-height: 1;
+                   font-family: Arial, sans-serif; font-weight: bold; color: #111; }
+  .clues { display: flex; gap: 28px; }
+  .clue-section h2 { font-size: 13px; font-weight: bold; letter-spacing: 2px;
+                      text-transform: uppercase; border-bottom: 1px solid #111;
+                      padding-bottom: 4px; margin-bottom: 8px; }
+  .clue-section ol { list-style: none; font-size: 12px; line-height: 1.7; max-width: 200px; }
+  .clue-section li .num { font-weight: bold; margin-right: 3px; }
+  @media print { body { padding: 10px; } @page { margin: 1cm; } }
+</style>
+</head>
+<body>
+<h1>Demo Crossword</h1>
+<div class="puzzle-wrap">
+  <div><table>
+  <tr>
+    <td class="white"><span class="num">1</span></td>
+    <td class="black"></td>
+    <td class="black"></td>
+    <td class="black"></td>
+    <td class="black"></td>
+    <td class="black"></td>
+    <td class="black"></td>
+    <td class="black"></td>
+    <td class="black"></td>
+    <td class="black"></td>
+    <td class="black"></td>
+    <td class="white"><span class="num">2</span></td>
+    <td class="black"></td>
+    <td class="white"><span class="num">3</span></td>
+    <td class="black"></td>
+    <td class="white"><span class="num">4</span></td>
+    <td class="black"></td>
+  </tr>
+  <tr>
+    <td class="white"></td>
+    <td class="black"></td>
+    <td class="white"><span class="num">5</span></td>
+    <td class="white"></td>
+    <td class="white"></td>
+    <td class="white"><span class="num">6</span></td>
+    <td class="white"></td>
+    <td class="black"></td>
+    <td class="black"></td>
+    <td class="black"></td>
+    <td class="white"><span class="num">7</span></td>
+    <td class="white"></td>
+    <td class="white"></td>
+    <td class="white"></td>
+    <td class="white"></td>
+    <td class="white"></td>
+    <td class="white"></td>
+  </tr>
+  <tr>
+    <td class="white"></td>
+    <td class="black"></td>
+    <td class="black"></td>
+    <td class="black"></td>
+    <td class="black"></td>
+    <td class="white"></td>
+    <td class="black"></td>
+    <td class="white"><span class="num">8</span></td>
+    <td class="black"></td>
+    <td class="black"></td>
+    <td class="black"></td>
+    <td class="white"></td>
+    <td class="black"></td>
+    <td class="white"></td>
+    <td class="black"></td>
+    <td class="white"></td>
+    <td class="black"></td>
+  </tr>
+  <tr>
+    <td class="white"></td>
+    <td class="black"></td>
+    <td class="black"></td>
+    <td class="white"><span class="num">9</span></td>
+    <td class="white"></td>
+    <td class="white"></td>
+    <td class="white"></td>
+    <td class="white"></td>
+    <td class="white"></td>
+    <td class="white"></td>
+    <td class="black"></td>
+    <td class="white"></td>
+    <td class="black"></td>
+    <td class="white"></td>
+    <td class="black"></td>
+    <td class="black"></td>
+    <td class="white"><span class="num">10</span></td>
+  </tr>
+  <tr>
+    <td class="white"><span class="num">11</span></td>
+    <td class="white"></td>
+    <td class="white"></td>
+    <td class="white"></td>
+    <td class="black"></td>
+    <td class="white"></td>
+    <td class="black"></td>
+    <td class="white"></td>
+    <td class="black"></td>
+    <td class="black"></td>
+    <td class="black"></td>
+    <td class="white"></td>
+    <td class="black"></td>
+    <td class="black"></td>
+    <td class="white"><span class="num">12</span></td>
+    <td class="black"></td>
+    <td class="white"></td>
+  </tr>
+  <tr>
+    <td class="white"></td>
+    <td class="black"></td>
+    <td class="black"></td>
+    <td class="white"></td>
+    <td class="black"></td>
+    <td class="white"><span class="num">13</span></td>
+    <td class="white"></td>
+    <td class="white"></td>
+    <td class="white"></td>
+    <td class="white"><span class="num">14</span></td>
+    <td class="white"></td>
+    <td class="white"></td>
+    <td class="black"></td>
+    <td class="white"><span class="num">15</span></td>
+    <td class="white"></td>
+    <td class="white"></td>
+    <td class="white"></td>
+  </tr>
+  <tr>
+    <td class="white"><span class="num">16</span></td>
+    <td class="white"></td>
+    <td class="white"></td>
+    <td class="white"></td>
+    <td class="white"></td>
+    <td class="black"></td>
+    <td class="black"></td>
+    <td class="white"></td>
+    <td class="black"></td>
+    <td class="white"></td>
+    <td class="black"></td>
+    <td class="black"></td>
+    <td class="black"></td>
+    <td class="black"></td>
+    <td class="white"></td>
+    <td class="black"></td>
+    <td class="white"></td>
+  </tr>
+  <tr>
+    <td class="white"></td>
+    <td class="black"></td>
+    <td class="black"></td>
+    <td class="white"></td>
+    <td class="black"></td>
+    <td class="black"></td>
+    <td class="white"><span class="num">17</span></td>
+    <td class="white"></td>
+    <td class="white"></td>
+    <td class="white"></td>
+    <td class="white"></td>
+    <td class="white"></td>
+    <td class="white"></td>
+    <td class="white"><span class="num">18</span></td>
+    <td class="white"></td>
+    <td class="black"></td>
+    <td class="white"></td>
+  </tr>
+  <tr>
+    <td class="white"></td>
+    <td class="black"></td>
+    <td class="white"><span class="num">19</span></td>
+    <td class="white"></td>
+    <td class="white"></td>
+    <td class="white"><span class="num">20</span></td>
+    <td class="black"></td>
+    <td class="white"></td>
+    <td class="black"></td>
+    <td class="white"></td>
+    <td class="black"></td>
+    <td class="black"></td>
+    <td class="black"></td>
+    <td class="white"></td>
+    <td class="black"></td>
+    <td class="black"></td>
+    <td class="black"></td>
+  </tr>
+  <tr>
+    <td class="white"></td>
+    <td class="black"></td>
+    <td class="black"></td>
+    <td class="black"></td>
+    <td class="black"></td>
+    <td class="white"></td>
+    <td class="black"></td>
+    <td class="black"></td>
+    <td class="white"><span class="num">21</span></td>
+    <td class="white"></td>
+    <td class="white"></td>
+    <td class="black"></td>
+    <td class="white"><span class="num">22</span></td>
+    <td class="white"></td>
+    <td class="white"></td>
+    <td class="white"></td>
+    <td class="white"></td>
+  </tr>
+  <tr>
+    <td class="black"></td>
+    <td class="white"><span class="num">23</span></td>
+    <td class="black"></td>
+    <td class="black"></td>
+    <td class="white"><span class="num">24</span></td>
+    <td class="white"></td>
+    <td class="white"><span class="num">25</span></td>
+    <td class="white"></td>
+    <td class="black"></td>
+    <td class="black"></td>
+    <td class="black"></td>
+    <td class="white"><span class="num">26</span></td>
+    <td class="black"></td>
+    <td class="white"></td>
+    <td class="black"></td>
+    <td class="black"></td>
+    <td class="black"></td>
+  </tr>
+  <tr>
+    <td class="black"></td>
+    <td class="white"></td>
+    <td class="black"></td>
+    <td class="white"><span class="num">27</span></td>
+    <td class="black"></td>
+    <td class="black"></td>
+    <td class="white"></td>
+    <td class="black"></td>
+    <td class="white"><span class="num">28</span></td>
+    <td class="black"></td>
+    <td class="black"></td>
+    <td class="white"></td>
+    <td class="black"></td>
+    <td class="white"></td>
+    <td class="black"></td>
+    <td class="black"></td>
+    <td class="white"><span class="num">29</span></td>
+  </tr>
+  <tr>
+    <td class="white"><span class="num">30</span></td>
+    <td class="white"></td>
+    <td class="white"></td>
+    <td class="white"></td>
+    <td class="white"></td>
+    <td class="black"></td>
+    <td class="white"><span class="num">31</span></td>
+    <td class="white"></td>
+    <td class="white"></td>
+    <td class="white"></td>
+    <td class="white"></td>
+    <td class="white"></td>
+    <td class="white"></td>
+    <td class="white"></td>
+    <td class="white"></td>
+    <td class="black"></td>
+    <td class="white"></td>
+  </tr>
+  <tr>
+    <td class="black"></td>
+    <td class="white"></td>
+    <td class="black"></td>
+    <td class="white"></td>
+    <td class="black"></td>
+    <td class="black"></td>
+    <td class="white"></td>
+    <td class="black"></td>
+    <td class="white"></td>
+    <td class="black"></td>
+    <td class="black"></td>
+    <td class="white"></td>
+    <td class="black"></td>
+    <td class="black"></td>
+    <td class="black"></td>
+    <td class="black"></td>
+    <td class="white"></td>
+  </tr>
+  <tr>
+    <td class="white"><span class="num">32</span></td>
+    <td class="white"></td>
+    <td class="white"></td>
+    <td class="white"></td>
+    <td class="white"></td>
+    <td class="black"></td>
+    <td class="white"><span class="num">33</span></td>
+    <td class="white"></td>
+    <td class="white"></td>
+    <td class="white"></td>
+    <td class="black"></td>
+    <td class="white"></td>
+    <td class="black"></td>
+    <td class="black"></td>
+    <td class="white"><span class="num">34</span></td>
+    <td class="black"></td>
+    <td class="white"></td>
+  </tr>
+  <tr>
+    <td class="black"></td>
+    <td class="white"></td>
+    <td class="black"></td>
+    <td class="black"></td>
+    <td class="black"></td>
+    <td class="black"></td>
+    <td class="white"></td>
+    <td class="black"></td>
+    <td class="white"></td>
+    <td class="black"></td>
+    <td class="white"><span class="num">35</span></td>
+    <td class="white"></td>
+    <td class="white"></td>
+    <td class="white"></td>
+    <td class="white"></td>
+    <td class="white"></td>
+    <td class="white"></td>
+  </tr>
+  <tr>
+    <td class="black"></td>
+    <td class="white"><span class="num">36</span></td>
+    <td class="white"></td>
+    <td class="white"></td>
+    <td class="white"></td>
+    <td class="white"></td>
+    <td class="white"></td>
+    <td class="white"></td>
+    <td class="white"></td>
+    <td class="white"></td>
+    <td class="black"></td>
+    <td class="white"></td>
+    <td class="black"></td>
+    <td class="black"></td>
+    <td class="white"></td>
+    <td class="black"></td>
+    <td class="white"></td>
+  </tr>
+  </table></div>
+  <div class="clues">
+    <div class="clue-section">
+      <h2>Across</h2>
+      <ol>
+  <li><span class='num'>5.</span>  (5)</li>
+  <li><span class='num'>7.</span> Colorful arc in the sky after rain (7)</li>
+  <li><span class='num'>9.</span> Hardest naturally occurring mineral (7)</li>
+  <li><span class='num'>11.</span> Tall plant with a trunk (4)</li>
+  <li><span class='num'>13.</span> Pleasing combination of musical notes (7)</li>
+  <li><span class='num'>15.</span> Water falling from clouds (4)</li>
+  <li><span class='num'>16.</span> Flowing body of water (5)</li>
+  <li><span class='num'>17.</span> Device for viewing distant objects (9)</li>
+  <li><span class='num'>19.</span> Twinkling object in the night sky (4)</li>
+  <li><span class='num'>21.</span>  (3)</li>
+  <li><span class='num'>22.</span> Small piece of rock (5)</li>
+  <li><span class='num'>24.</span> Hard mineral material (4)</li>
+  <li><span class='num'>30.</span> Visible mass of condensed water vapor (5)</li>
+  <li><span class='num'>31.</span>  (9)</li>
+  <li><span class='num'>31.</span> Landform higher than a hill (8)</li>
+  <li><span class='num'>32.</span>  (5)</li>
+  <li><span class='num'>32.</span> Loose granular material found on beaches (4)</li>
+  <li><span class='num'>33.</span>  (4)</li>
+  <li><span class='num'>35.</span> Flightless bird found in Antarctica (7)</li>
+  <li><span class='num'>36.</span> Large group of musicians playing together (9)</li>
+      </ol>
+    </div>
+    <div class="clue-section">
+      <h2>Down</h2>
+      <ol>
+  <li><span class='num'>1.</span>  (10)</li>
+  <li><span class='num'>2.</span> Collection of billions of stars (6)</li>
+  <li><span class='num'>3.</span> Frozen precipitation (4)</li>
+  <li><span class='num'>4.</span>  (3)</li>
+  <li><span class='num'>6.</span> Sandy shore by the sea (5)</li>
+  <li><span class='num'>8.</span> A long trip from one place to another (7)</li>
+  <li><span class='num'>9.</span> Arid, sandy region (6)</li>
+  <li><span class='num'>10.</span>  (5)</li>
+  <li><span class='num'>10.</span> Moving air (4)</li>
+  <li><span class='num'>12.</span> Moving ridge of water (4)</li>
+  <li><span class='num'>14.</span> Large body of salt water (5)</li>
+  <li><span class='num'>18.</span> Popular programming language named after a comedy troupe (6)</li>
+  <li><span class='num'>20.</span>  (3)</li>
+  <li><span class='num'>23.</span> Mountain that can erupt (7)</li>
+  <li><span class='num'>25.</span> Tool that points north (7)</li>
+  <li><span class='num'>26.</span> Slow-moving mass of ice (7)</li>
+  <li><span class='num'>27.</span>  (4)</li>
+  <li><span class='num'>28.</span> Stringed musical instrument (6)</li>
+  <li><span class='num'>29.</span> Land surrounded by water (6)</li>
+  <li><span class='num'>34.</span> Star at the center of our solar system (3)</li>
+      </ol>
+    </div>
+  </div>
+</div>
+</body>
+</html>

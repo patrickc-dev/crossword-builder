@@ -1,0 +1,58 @@
+Grid size:    17 rows x 17 cols
+Must words:   8 / 8 placed
+Core words:   8 / 16 placed  |  unplaced: ['DOLPHIN', 'HURRICANE', 'KEYBOARD', 'WATERFALL', 'BUTTERFLY', 'CARNIVAL', 'BLIZZARD', 'LIGHTHOUSE']
+Filler words: 14 / 20 placed  |  placed: ['ROCK', 'SNOW', 'WAVE', 'CLOUD', 'ISLAND', 'SUN', 'SAND', 'RIVER', 'STONE', 'BEACH', 'RAIN', 'STAR', 'TREE', 'WIND']
+Fill words:   0 added
+Total:        30 words
+
+. . . . . . . . . . . G . S . . .
+. . . . . B . . . . R A I N B O W
+. . . . . E . J . . . L . O . . .
+. . . D I A M O N D . A . W . . W
+T R E E . C . U . . . X . . W . I
+. . . S . H A R M O N Y . R A I N
+R I V E R . . N . C . . . . V . D
+. . . R . . T E L E S C O P E . .
+. . S T A R . Y . A . . . Y . . .
+. . . . . . . . . N . . S T O N E
+. V . . R O C K . . . G . H . . .
+. O . . . . O . G . . L . O . . I
+C L O U D . M O U N T A I N . . S
+. C . . . . P . I . . C . . . . L
+S A N D . . A . T . . I . . S . A
+. N . . . . S . A . P E N G U I N
+. O R C H E S T R A . R . . N . D
+
+ACROSS
+  4. Colorful arc in the sky after rain (7)
+  6. Hardest naturally occurring mineral (7)
+  8. Tall plant with a trunk (4)
+  10. Pleasing combination of musical notes (7)
+  12. Water falling from clouds (4)
+  13. Flowing body of water (5)
+  14. Device for viewing distant objects (9)
+  16. Twinkling object in the night sky (4)
+  17. Small piece of rock (5)
+  19. Hard mineral material (4)
+  24. Visible mass of condensed water vapor (5)
+  25. Landform higher than a hill (8)
+  26. Loose granular material found on beaches (4)
+  28. Flightless bird found in Antarctica (7)
+  29. Large group of musicians playing together (9)
+
+DOWN
+  1. Collection of billions of stars (6)
+  2. Frozen precipitation (4)
+  3. Sandy shore by the sea (5)
+  5. A long trip from one place to another (7)
+  6. Arid, sandy region (6)
+  7. Moving air (4)
+  9. Moving ridge of water (4)
+  11. Large body of salt water (5)
+  15. Popular programming language named after a comedy troupe (6)
+  18. Mountain that can erupt (7)
+  20. Tool that points north (7)
+  21. Slow-moving mass of ice (7)
+  22. Stringed musical instrument (6)
+  23. Land surrounded by water (6)
+  27. Star at the center of our solar system (3)

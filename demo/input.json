@@ -1,0 +1,53 @@
+{
+  "title": "Demo Crossword",
+  "must": [
+    ["PYTHON",   "Popular programming language named after a comedy troupe"],
+    ["GALAXY",   "Collection of billions of stars"],
+    ["OCEAN",    "Large body of salt water"],
+    ["MOUNTAIN", "Landform higher than a hill"],
+    ["DIAMOND",  "Hardest naturally occurring mineral"],
+    ["HARMONY",  "Pleasing combination of musical notes"],
+    ["JOURNEY",  "A long trip from one place to another"],
+    ["COMPASS",  "Tool that points north"]
+  ],
+  "core": [
+    ["BUTTERFLY",  "Insect known for its colorful wings"],
+    ["TELESCOPE",  "Device for viewing distant objects"],
+    ["KEYBOARD",   "Input device with keys"],
+    ["VOLCANO",    "Mountain that can erupt"],
+    ["DESERT",     "Arid, sandy region"],
+    ["RAINBOW",    "Colorful arc in the sky after rain"],
+    ["PENGUIN",    "Flightless bird found in Antarctica"],
+    ["GUITAR",     "Stringed musical instrument"],
+    ["DOLPHIN",    "Intelligent marine mammal"],
+    ["LIGHTHOUSE", "Tower that guides ships at night"],
+    ["ORCHESTRA",  "Large group of musicians playing together"],
+    ["CARNIVAL",   "Festive traveling fair"],
+    ["BLIZZARD",   "Severe snowstorm with strong winds"],
+    ["HURRICANE",  "Powerful tropical storm"],
+    ["GLACIER",    "Slow-moving mass of ice"],
+    ["WATERFALL",  "Water falling from a height"]
+  ],
+  "filler": [
+    ["SUN",    "Star at the center of our solar system"],
+    ["MOON",   "Earth's natural satellite"],
+    ["STAR",   "Twinkling object in the night sky"],
+    ["TREE",   "Tall plant with a trunk"],
+    ["RIVER",  "Flowing body of water"],
+    ["CLOUD",  "Visible mass of condensed water vapor"],
+    ["STONE",  "Small piece of rock"],
+    ["BEACH",  "Sandy shore by the sea"],
+    ["FOREST", "Large area covered with trees"],
+    ["ISLAND", "Land surrounded by water"],
+    ["LEAF",   "Flat green part of a plant"],
+    ["WIND",   "Moving air"],
+    ["RAIN",   "Water falling from clouds"],
+    ["SNOW",   "Frozen precipitation"],
+    ["SAND",   "Loose granular material found on beaches"],
+    ["WAVE",   "Moving ridge of water"],
+    ["ROCK",   "Hard mineral material"],
+    ["LAKE",   "Inland body of still water"],
+    ["HILL",   "Small elevation of land"],
+    ["PATH",   "Track for walking"]
+  ]
+}

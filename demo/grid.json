@@ -1,0 +1,260 @@
+{
+  "title": "Demo Crossword",
+  "placed": [
+    {
+      "word": "TELESCOPE",
+      "row": 0,
+      "col": -4,
+      "direction": "H",
+      "clue": "Device for viewing distant objects",
+      "tier": "core"
+    },
+    {
+      "word": "JOURNEY",
+      "row": -5,
+      "col": -3,
+      "direction": "V",
+      "clue": "A long trip from one place to another",
+      "tier": "must"
+    },
+    {
+      "word": "HARMONY",
+      "row": -2,
+      "col": -5,
+      "direction": "H",
+      "clue": "Pleasing combination of musical notes",
+      "tier": "must"
+    },
+    {
+      "word": "DIAMOND",
+      "row": -4,
+      "col": -7,
+      "direction": "H",
+      "clue": "Hardest naturally occurring mineral",
+      "tier": "must"
+    },
+    {
+      "word": "GALAXY",
+      "row": -7,
+      "col": 1,
+      "direction": "V",
+      "clue": "Collection of billions of stars",
+      "tier": "must"
+    },
+    {
+      "word": "PYTHON",
+      "row": 0,
+      "col": 3,
+      "direction": "V",
+      "clue": "Popular programming language named after a comedy troupe",
+      "tier": "must"
+    },
+    {
+      "word": "MOUNTAIN",
+      "row": 5,
+      "col": -4,
+      "direction": "H",
+      "clue": "Landform higher than a hill",
+      "tier": "must"
+    },
+    {
+      "word": "OCEAN",
+      "row": -2,
+      "col": -1,
+      "direction": "V",
+      "clue": "Large body of salt water",
+      "tier": "must"
+    },
+    {
+      "word": "COMPASS",
+      "row": 3,
+      "col": -4,
+      "direction": "V",
+      "clue": "Tool that points north",
+      "tier": "must"
+    },
+    {
+      "word": "DESERT",
+      "row": -4,
+      "col": -7,
+      "direction": "V",
+      "clue": "Arid, sandy region",
+      "tier": "core"
+    },
+    {
+      "word": "GUITAR",
+      "row": 4,
+      "col": -2,
+      "direction": "V",
+      "clue": "Stringed musical instrument",
+      "tier": "core"
+    },
+    {
+      "word": "ORCHESTRA",
+      "row": 9,
+      "col": -9,
+      "direction": "H",
+      "clue": "Large group of musicians playing together",
+      "tier": "core"
+    },
+    {
+      "word": "RAINBOW",
+      "row": -6,
+      "col": 0,
+      "direction": "H",
+      "clue": "Colorful arc in the sky after rain",
+      "tier": "core"
+    },
+    {
+      "word": "VOLCANO",
+      "row": 3,
+      "col": -9,
+      "direction": "V",
+      "clue": "Mountain that can erupt",
+      "tier": "core"
+    },
+    {
+      "word": "GLACIER",
+      "row": 3,
+      "col": 1,
+      "direction": "V",
+      "clue": "Slow-moving mass of ice",
+      "tier": "core"
+    },
+    {
+      "word": "PENGUIN",
+      "row": 8,
+      "col": 0,
+      "direction": "H",
+      "clue": "Flightless bird found in Antarctica",
+      "tier": "core"
+    },
+    {
+      "word": "ROCK",
+      "row": 3,
+      "col": -6,
+      "direction": "H",
+      "clue": "Hard mineral material",
+      "tier": "filler"
+    },
+    {
+      "word": "SNOW",
+      "row": -7,
+      "col": 3,
+      "direction": "V",
+      "clue": "Frozen precipitation",
+      "tier": "filler"
+    },
+    {
+      "word": "WAVE",
+      "row": -3,
+      "col": 4,
+      "direction": "V",
+      "clue": "Moving ridge of water",
+      "tier": "filler"
+    },
+    {
+      "word": "CLOUD",
+      "row": 5,
+      "col": -10,
+      "direction": "H",
+      "clue": "Visible mass of condensed water vapor",
+      "tier": "filler"
+    },
+    {
+      "word": "ISLAND",
+      "row": 4,
+      "col": 6,
+      "direction": "V",
+      "clue": "Land surrounded by water",
+      "tier": "filler"
+    },
+    {
+      "word": "SUN",
+      "row": 7,
+      "col": 4,
+      "direction": "V",
+      "clue": "Star at the center of our solar system",
+      "tier": "filler"
+    },
+    {
+      "word": "SAND",
+      "row": 7,
+      "col": -10,
+      "direction": "H",
+      "clue": "Loose granular material found on beaches",
+      "tier": "filler"
+    },
+    {
+      "word": "RIVER",
+      "row": -1,
+      "col": -10,
+      "direction": "H",
+      "clue": "Flowing body of water",
+      "tier": "filler"
+    },
+    {
+      "word": "STONE",
+      "row": 2,
+      "col": 2,
+      "direction": "H",
+      "clue": "Small piece of rock",
+      "tier": "filler"
+    },
+    {
+      "word": "BEACH",
+      "row": -6,
+      "col": -5,
+      "direction": "V",
+      "clue": "Sandy shore by the sea",
+      "tier": "filler"
+    },
+    {
+      "word": "RAIN",
+      "row": -2,
+      "col": 3,
+      "direction": "H",
+      "clue": "Water falling from clouds",
+      "tier": "filler"
+    },
+    {
+      "word": "STAR",
+      "row": 1,
+      "col": -8,
+      "direction": "H",
+      "clue": "Twinkling object in the night sky",
+      "tier": "filler"
+    },
+    {
+      "word": "TREE",
+      "row": -3,
+      "col": -10,
+      "direction": "H",
+      "clue": "Tall plant with a trunk",
+      "tier": "filler"
+    },
+    {
+      "word": "WIND",
+      "row": -4,
+      "col": 6,
+      "direction": "V",
+      "clue": "Moving air",
+      "tier": "filler"
+    }
+  ],
+  "unplaced_core": [
+    "DOLPHIN",
+    "HURRICANE",
+    "KEYBOARD",
+    "WATERFALL",
+    "BUTTERFLY",
+    "CARNIVAL",
+    "BLIZZARD",
+    "LIGHTHOUSE"
+  ],
+  "totals": {
+    "must": 8,
+    "core": 16,
+    "filler": 20
+  }
+}

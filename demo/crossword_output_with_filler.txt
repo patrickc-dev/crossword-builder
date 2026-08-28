@@ -1,0 +1,68 @@
+Grid size:    17 rows x 17 cols
+Must words:   8 / 8 placed
+Core words:   8 / 16 placed  |  unplaced: ['DOLPHIN', 'HURRICANE', 'KEYBOARD', 'WATERFALL', 'BUTTERFLY', 'CARNIVAL', 'BLIZZARD', 'LIGHTHOUSE']
+Filler words: 24 / 20 placed  |  placed: ['ROCK', 'SNOW', 'WAVE', 'CLOUD', 'ISLAND', 'SUN', 'SAND', 'RIVER', 'STONE', 'BEACH', 'RAIN', 'STAR', 'TREE', 'WIND', 'MOUNTAINS', 'WINDS', 'SANDY', 'VEGETARIAN', 'QUAD', 'AUTO', 'RIO', 'TRIBE', 'ZOO', 'UNI']
+Fill words:   10 added  |  words: MOUNTAINS, WINDS, SANDY, VEGETARIAN, QUAD, AUTO, RIO, TRIBE, ZOO, UNI
+Total:        40 words
+
+V . . . . . . . . . . G . S . Z .
+E . T R I B E . . . R A I N B O W
+G . . . . E . J . . . L . O . O .
+E . . D I A M O N D . A . W . . W
+T R E E . C . U . . . X . . W . I
+A . . S . H A R M O N Y . R A I N
+R I V E R . . N . C . . . . V . D
+I . . R . . T E L E S C O P E . S
+A . S T A R . Y . A . . . Y . . .
+N . . . . I . . U N I . S T O N E
+. V . . R O C K . . . G . H . . .
+. O . Q . . O . G . . L . O . . I
+C L O U D . M O U N T A I N S . S
+. C . A . . P . I . . C . . . . L
+S A N D Y . A U T O . I . . S . A
+. N . . . . S . A . P E N G U I N
+. O R C H E S T R A . R . . N . D
+
+ACROSS
+  5. TRIBE  (5)  *** ADD CLUE ***
+  7. Colorful arc in the sky after rain (7)
+  9. Hardest naturally occurring mineral (7)
+  11. Tall plant with a trunk (4)
+  13. Pleasing combination of musical notes (7)
+  15. Water falling from clouds (4)
+  16. Flowing body of water (5)
+  17. Device for viewing distant objects (9)
+  19. Twinkling object in the night sky (4)
+  21. UNI  (3)  *** ADD CLUE ***
+  22. Small piece of rock (5)
+  24. Hard mineral material (4)
+  30. Visible mass of condensed water vapor (5)
+  31. MOUNTAINS  (9)  *** ADD CLUE ***
+  31. Landform higher than a hill (8)
+  32. SANDY  (5)  *** ADD CLUE ***
+  32. Loose granular material found on beaches (4)
+  33. AUTO  (4)  *** ADD CLUE ***
+  35. Flightless bird found in Antarctica (7)
+  36. Large group of musicians playing together (9)
+
+DOWN
+  1. VEGETARIAN  (10)  *** ADD CLUE ***
+  2. Collection of billions of stars (6)
+  3. Frozen precipitation (4)
+  4. ZOO  (3)  *** ADD CLUE ***
+  6. Sandy shore by the sea (5)
+  8. A long trip from one place to another (7)
+  9. Arid, sandy region (6)
+  10. WINDS  (5)  *** ADD CLUE ***
+  10. Moving air (4)
+  12. Moving ridge of water (4)
+  14. Large body of salt water (5)
+  18. Popular programming language named after a comedy troupe (6)
+  20. RIO  (3)  *** ADD CLUE ***
+  23. Mountain that can erupt (7)
+  25. Tool that points north (7)
+  26. Slow-moving mass of ice (7)
+  27. QUAD  (4)  *** ADD CLUE ***
+  28. Stringed musical instrument (6)
+  29. Land surrounded by water (6)
+  34. Star at the center of our solar system (3)
